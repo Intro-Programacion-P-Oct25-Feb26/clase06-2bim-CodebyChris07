@@ -28,6 +28,17 @@ public class Ejemplo051 {
 
                 System.out.printf("Resultado %d\n", resultado);
                 bandera = false;
+                /*
+                entramos a un ciclo while pedimos un valor por teclado, y ese 
+                se le asigna al valor1, y volvemos a pedir un valor igual entero
+                y este lo asume valor2, y una vez tengamos los dos valores se 
+                immprime el resultado y la bandera se hace falsa, pero que pasa
+                si ingresamos el cero, pasamos a la linea 42 al catch y nos 
+                indica el error que hay pero si ponemos una cadena en cambio
+                vamos a la linea 40 y nos sale igual el error que se a cometido
+                y el ciclo se va a repetir hasta que pongamos los datos correctos
+               
+                */
             } catch (InputMismatchException inputMismatchException) {
 
                 System.out.printf("Existe un error de tipo %s\n",
