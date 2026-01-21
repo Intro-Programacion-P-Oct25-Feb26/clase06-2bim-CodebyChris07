@@ -44,3 +44,7 @@ public class Ejemplo07 {
                
     }
 }
+/*
+exception es como un padre de las excepcion, si nos saltamos alguna excepcion 
+esta la recoge
+*/
